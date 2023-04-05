@@ -1,0 +1,19 @@
+.delivery_card_container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 50px;
+}
+.delivery_card_text{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* or 125% */
+    
+    text-align: center;
+    
+    color: #252525;
+    
+}

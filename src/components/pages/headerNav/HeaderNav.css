@@ -1,0 +1,58 @@
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 150px ;
+    align-items: center;
+    position: relative;
+}
+.nav_links a{
+    color: white;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.nav_links{
+    
+    display: flex;
+    column-gap: 30px;
+}
+
+.header_logo{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.icon_container{
+    display: flex;
+    
+    column-gap: 35px;
+   
+}
+.header_drop_down{
+    display: flex;
+    column-gap: 35px;
+    color: white;
+}
+.header_drop_down{
+    display: flex
+}
+.active{
+    color: rgb(0, 0, 0);
+    cursor: default;
+}
+
+.busket_container{
+    position: absolute;
+    top: 50px;
+    right: 0;
+   z-index: 5;
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: 100%;
+
+}
+

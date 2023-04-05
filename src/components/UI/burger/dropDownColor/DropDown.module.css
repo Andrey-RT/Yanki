@@ -1,0 +1,42 @@
+.dropdown{
+    
+    width: 30px;
+    position: relative;
+    user-select: none;
+}
+.dropdown .dropdown_btn{
+   
+    padding: 5px 0;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 7px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.dropdown .dropdown_content{
+    position: absolute;
+    top: 110%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    
+}
+.dropdown .dropdown_content .dropdown_item{
+    padding: 5px 0;
+    
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 21px;
+
+}
+.dropdown_item{
+    color: #000000;
+}
+

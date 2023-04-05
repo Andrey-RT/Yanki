@@ -1,0 +1,23 @@
+.counter_container{
+    display: flex;
+    padding: 7px;
+    border: 1px solid black;
+    column-gap: 15px;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.counter_container button{
+    background-color: white;
+    border:none;
+    color   :
+    #E0BEA2;
+    font-size: 30px;
+    cursor: pointer;
+    align-items: center;
+    text-align: center;
+}
+.counter_container p{
+    font-size: 25px;
+}
